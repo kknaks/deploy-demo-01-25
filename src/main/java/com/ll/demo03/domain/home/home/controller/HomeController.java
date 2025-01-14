@@ -15,7 +15,7 @@ public class HomeController {
     @GetMapping("/")
     @ResponseBody
     public String showMain() {
-        return "Hello, World, 진짜 마지막이다.22333 on " + siteName;
+        return "Hello, World, 진짜 마지막이다.22333 첨 부터 시작  on " + siteName;
     }
 
     @GetMapping("/secretKey")
